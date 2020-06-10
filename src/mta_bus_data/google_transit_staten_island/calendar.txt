@@ -1,0 +1,7 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+CA_F0-Saturday,0,0,0,0,0,1,0,20200411,20200627
+CA_F0-Sunday,0,0,0,0,0,0,1,20200405,20200621
+CH_F0-Saturday,0,0,0,0,0,1,0,20200411,20200627
+CH_F0-Sunday,0,0,0,0,0,0,1,20200405,20200621
+YU_F0-Saturday,0,0,0,0,0,1,0,20200411,20200627
+YU_F0-Sunday,0,0,0,0,0,0,1,20200405,20200621
