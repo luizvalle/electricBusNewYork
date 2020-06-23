@@ -1,0 +1,243 @@
+Route,End point 1,End point 2,Length (miles)
+Bx1,Riverdale,Mott Haven,8.8
+Bx10,Riverdale,Norwood,7.4
+Bx11,Parkchester,Southern Blvd & GW Bridge,4.9
+Bx12,Pelham Pkwy,Fordham Rd,8.1
+Bx12-SBS,Pelham Pkwy,Fordham Rd,7.6
+Bx13,George Washington Bridge,Yankee Stadium,4.1
+Bx15,Fordham Plaza,The Hub,7.6
+Bx16,Pelham,Norwood,7.4
+Bx17,Fordham Plaza,Port Morris,5.7
+Bx18,Morris Heights/High Bridge Circulator,,2.4
+Bx19,NY Botanical Garden,Riverbank Park,6.8
+Bx2,Kingsbridge Heights,Mott Haven,8.0
+Bx20,Riverdale,Inwood,3.7
+Bx21,Westchester Sq,Mott Haven,6.9
+Bx22,Bedford Park,Castle Hill,6.6
+Bx24,Country Club,Hutchinson Metro Center,4.5
+Bx26,Co-op City Section 5,Bedford Park,6.1
+Bx27,Clasons Pt,West Farms Rd & Southern Blvd,3.6
+Bx28,Co-op City Section 5,Fordham Center,9.7
+Bx29,City Island,Pelham Bay Pk Station,5.9
+Bx3,Riverdale,George Washington Bridge,4.5
+Bx30,Co-op City Section 5,Pelham Pkwy,7.3
+Bx31,Woodlawn,Westchester Sq,6.4
+Bx32,Kingsbridge VA Hospital,Mott Haven,5.2
+Bx33,Port Morris,Harlem,2.9
+Bx34,Woodlawn,Fordham Center,3.9
+Bx35,West Farms Rd & Jennings St,GW Bridge,4.1
+Bx36,Soundview,George Washington Bridge,9.4
+Bx38,Co-op City Bay Plaza,Norwood,8.8
+Bx39,Wakefield,Clasons Pt,7.6
+Bx4,Westchester Sq,The Hub,4.7
+Bx40,Throgs Neck,River Park Towers,8.2
+Bx41,Williamsbridge,The Hub,5.5
+Bx41-SBS,Williamsbridge,The Hub,5.4
+Bx42,Throgs Neck,River Park Towers,8.6
+Bx46,Prospect Av,Westchester Av / Hunts Point Market,2.6
+Bx4A,Westchester Sq,Gladstone Sq,4.9
+Bx5,Pelham Bay,West Farms Rd & Southern Blvd,7.7
+Bx6,Hunts Point,Riverside Dr,5.8
+Bx6-SBS,Soundview,Riverside Dr,5.8
+Bx7,Riverdale,Washington Heights,6.0
+Bx8,Williamsbridge,Locust Point,8.7
+Bx9,Riverdale,West Farms Sq,6.4
+M100,Inwood,Manhattanville,7.3
+B1,Bay Ridge,Manhattan Beach,6.8
+B11,Sunset Park,Midwood,5.8
+B12,Lefferts Gardens,East New York,4.3
+B13,Spring Creek,Wyckoff Hospital,8.8
+B14,Spring Creek,Crown Heights,5.2
+B15,Bedford Stuyvesant,JFK Airport,13.3
+B16,Bay Ridge,Lefferts Gardens,8.0
+B17,Canarsie,Crown Heights,6.5
+B2,Kings Hwy Station,Kings Plaza,2.6
+B20,Ridgewood,Spring Creek,7.5
+B24,Williamsburg,Greenpoint,6.5
+B25,Dwntn Bklyn & DUMBO,Broadway Junction,6.0
+B26,Downtown Brooklyn,Ridgewood,5.9
+B3,Bensonhurst,Bergen Beach,5.3
+B31,Gerritsen Beach,Kings Hwy Station,2.9
+B32,Williamsburg,Long Island City,3.6
+B35,Brownsville,Sunset Park,7.4
+B36,Sheepshead Bay,Coney Island,5.8
+B37,Downtown Brooklyn,Bay Ridge,6.3
+B38,Ridgewood,Downtown Brooklyn,8.0
+B39,Williamsburg Bridge Plaza,Lower East Side,1.8
+B4,Bay Ridge,Sheepshead Bay,9.2
+B41,Kings Plaza,Downtown Brooklyn,10.5
+B42,Canarsie Pier,Rockaway Parkway Station,1.3
+B43,Greenpoint,Lefferts Gardens,6.8
+B44,Sheepshead Bay,Williamsburg,10.3
+B44-SBS,Sheepshead Bay,Williamsburg,9.4
+B45,Downtown Brooklyn,Crown Heights,4.6
+B46,Kings Plaza,Williamsburg,8.4
+B46-SBS,Kings Plaza,Williamsburg,6.0
+B47,Kings Plaza,Bedford-Stuyvesant,7.8
+B48,Lefferts Gardens,Greenpoint,6.0
+B49,Manhattan Beach,Bedford-Stuyvesant,10.7
+B52,Downtown Brooklyn,Ridgewood,5.1
+B54,Downtown Brooklyn,Ridgewood,4.4
+B57,Gowanus,Maspeth,8.0
+B6,Bath Beach,East New York,12.6
+B60,Williamsburg,Canarsie,7.9
+B61,Park Slope,Downtown Brooklyn,5.8
+B62,Downtown Brooklyn,Long Island City,7.6
+B63,Bay Ridge,Cobble Hill,8.2
+B64,Bay Ridge,Coney Island,6.9
+B65,Downtown Brooklyn,Crown Heights,4.5
+B67,Brooklyn Navy Yard,Kensington,7.1
+B68,Coney Island,Windsor Terrace,7.6
+B69,Downtown Brooklyn,Kensington,6.2
+B7,Midwood,Bedford-Stuyvesant,6.8
+B70,Dyker Heights,Sunset Park,4.8
+B74,Sea Gate,Stillwell Av,3.0
+B8,Dyker Heights,East Flatbush,10.0
+B82,Coney Island,Spring Creek Towers,12.8
+B82-SBS,Coney Island -spring Creek Towers,,12.8
+B83,Spring Creek,Broadway Junction,6.0
+B84,Spring Creek-New Lots,,2.2
+B9,Bay Ridge,Kings Plaza,8.0
+Q24,Broadway Junction,Jamaica,8.5
+Q54,Williamsburg,Jamaica,9.7
+Q55,Ridgewood,Richmond Hill,4.4
+Q56,Broadway Junction,Jamaica,6.6
+Q58,Ridgewood,Flushing,10.4
+Q59,Williamsburg,Rego Park,7.3
+X27,Bay Ridge,Manhattan Express,0.0
+X28,Sea Gate / Bensonhurst,Manhattan Express,0.0
+X37,Bay Ridge,Midtown Manhattan Express,0.0
+X38,Sea Gate / Bensonhurst,Midtown Manhattan Express,0.0
+M1,Harlem,East Village,9.4
+M10,Harlem,Columbus Circle,5.2
+M101,East Village,Harlem,11.9
+M102,Harlem,East Village,7.7
+M103,East Harlem,City Hall,7.8
+M104,West Harlem,Times Square,5.2
+M106,East Harlem,West Side,2.5
+M11,Riverbank Park & Harlem,West Village,7.9
+M116,West Side,East Harlem,2.6
+M12,Midtown West,West Village,3.5
+M14A-SBS,Lower East Side,Abingdon Sq,3.9
+M14D-SBS,Lower East Side,Chelsea Piers,3.4
+M15,East Harlem,South Ferry,8.7
+M15-SBS,East Harlem,South Ferry,8.7
+M191,191 ST Shuttle Loop,,0.0
+M2,Washington Heights,East Village,10.5
+M20,Lincoln Center,South Ferry,6.4
+M21,Lower East Side,West Village LTD,2.4
+M22,Lower East Side,Battery Park City,2.8
+M23-SBS,Chelsea Piers,East Side,2.6
+M3,Fort George,East Village,10.5
+M31,Yorkville,Clinton,3.9
+M34-SBS,East Side,Javits Center,2.1
+M34A-SBS,Waterside,Port Authority Terminal,2.5
+M35,Ward's Island,East Harlem,3.0
+M4,The Cloisters,32 St,12.1
+M42,United Nations,W 42 St Pier,2.1
+M5,George Washington Bridge,31 St & 6 Av,9.4
+M50,W 42 St Pier,East Side,2.3
+M55,W 44 St ,South Ferry,4.5
+M57,East Side,West Side,3.0
+M60-SBS,LaGuardia Airport,West Side,9.4
+M66,East Side,Lincoln Center,2.0
+M7,Harlem,14th Street,7.8
+M72,East Side,West Side,3.0
+M79-SBS,Yorkville,West Side,2.2
+M8,West Village,East Village LTD,2.2
+M86-SBS,Yorkville,West Side,2.4
+M9,Battery Park City,Kips Bay,4.8
+M96,East Side,West Side,2.0
+M98,Washington Heights,Upper East Side,7.3
+Q1,Queens Village / Bellerose,Jamaica,5.9
+Q12,Little Neck,Flushing,5.8
+Q13,Fort Totten,Flushing,6.3
+Q15,Flushing,Beechhurst,4.4
+Q15A,Flushing,Beechhurst / Whitestone,4.7
+Q16,Fort Totten,Flushing,6.2
+Q17,Flushing,Jamaica,8.7
+Q2,Queens Village,Jamaica,4.6
+Q20A,College Point,Jamaica,9.0
+Q20B,College Point,Jamaica,9.2
+Q26,Fresh Meadows,Flushing (Part-time),3.5
+Q27,Cambria Heights,Flushing,11.9
+Q28,Bayside,Flushing,5.3
+Q3,Jamaica,JFK Airport,8.5
+Q30,Little Neck or Queensborough Community College,Jamaica,8.5
+Q31,Bayside,Jamaica,8.6
+Q32,Jackson Heights,Penn Station,7.4
+Q36,Floral Park or Little Neck,Jamaica,10.2
+Q4,Cambria Heights,Jamaica,6.6
+Q42,Addeslieigh Park,Jamaica,2.5
+Q43,Floral Park,Jamaica,7.8
+Q44-SBS,Bronx Zoo,Jamaica,14.0
+Q46,Glen Oaks,Kew Gardens,10.2
+Q48,Flushing,LaGuardia Airport,5.6
+Q5,Rosedale,Jamaica,8.6
+Q76,College Point,Jamaica,10.1
+Q77,Laurelton,Jamaica,6.7
+Q83,Cambria Heights,Jamaica,7.0
+Q84,Laurelton,Jamaica,5.4
+Q85,Rosedale,Jamaica,9.6
+Q88,Elmhurst,Queens Village,9.8
+X63,Rosedale,Midtown Manhattan Express,0.0
+X64,Cambria Heights,Midtown Manhattan Express,0.0
+X68,Floral Park,Midtown Manhattan Express,0.0
+S40,St. George,Goethals Rd North,7.8
+S42,St. George,Clyde Place,3.4
+S44,St. George,Staten Island Mall,10.9
+S46,St. George,West Shore Plaza,10.0
+S48,St. George,Mariners Harbor,6.8
+S51,St. George,West Shore Plaza,8.7
+S52,St. George,Staten Island Univ. Hospital,9.0
+S53,Port Richmond,Bay Ridge,9.4
+S54,West New Brighton,Eltingville,11.5
+S55,Rossville,Staten Island Mall,10.5
+S56,Huguenot,Staten Island Mall,9.2
+S57,Port Richmond,New Dorp,11.3
+S59,Port Richmond,Tottenville,16.0
+S61,St. George,Staten Island Mall,9.8
+S62,St. George,Travis,8.4
+S66,St. George,Port Richmond,8.4
+S74,St. George,Bricktown Mall,19.4
+S76,St. George,Oakwood,9.6
+S78,St. George,Bricktown Mall,20.8
+S79-SBS,Staten Island Mall,Bay Ridge,15.1
+S81,St. George,Grant City LTD,7.7
+S84,St. George,Bricktown Mall LTD,17.0
+S86,St. George,Oakwood LTD,9.1
+S89,Eltingville,Bayonne LTD,11.8
+S90,St. George,Goethals Rd North LTD,7.8
+S91,St. George,Staten Island Mall LTD,9.5
+S92,St. George,Travis LTD,8.4
+S93,College of Staten Island,Bay Ridge LTD,8.8
+S94,St. George,Staten Island Mall LTD,9.9
+S96,St. George,West Shore Plaza LTD,9.6
+S98,St. George,Mariners Harbor LTD,6.8
+SIM1,Staten Island,Lower Manhattan Express,0.0
+SIM10,Eltingville,Midtown Manhattan Express,0.0
+SIM11,New Dorp,Midtown Manhattan Express,0.0
+SIM15,Eltingville,Lower Manhattan Express,0.0
+SIM1C,Staten Island,Manhattan Express,0.0
+SIM2,Staten Island,Lower Manhattan Express,0.0
+SIM22,Eltingville,Midtown Manhattan Express,0.0
+SIM25,Tottenville,Midtown Manhattan Express,0.0
+SIM26,Tottenville,Midtown Manhattan Express,0.0
+SIM3,Staten Island,Midtown Manhattan Express,0.0
+SIM30,Sunnyside,Midtown Manhattan Express,0.0
+SIM31,Eltingville,Midtown Manhattan Express,0.0
+SIM32,Travis,Lower Manhattan Express,0.0
+SIM33,Mariners Harbor,Greenwich Village Express,0.0
+SIM33C,Mariners Harbor,Greenwich Village Express,0.0
+SIM34,Mariners Harbor,Lower Manhattan Express,0.0
+SIM35,Port Richmond,Lower Manhattan Express,0.0
+SIM3C,Staten Island,Manhattan Express,0.0
+SIM4,Staten Island,Lower Manhattan Express,0.0
+SIM4C,Staten Island,Manhattan Express,0.0
+SIM4X,Staten Island,Lower Manhattan Express,0.0
+SIM5,Staten Island,Lower Manhattan Express,0.0
+SIM6,Staten Island,Midtown Manhattan Express,0.0
+SIM7,Staten Island,Greenwich village Express,0.0
+SIM8,Staten Island,Midtown Manhattan Express,0.0
+SIM8X,Staten Island,Midtown Manhattan Express,0.0
+SIM9,Eltingville,Greenwich Village Express,0.0
