@@ -5,7 +5,7 @@ import json
 import time
 import pandas as pd
 
-from datetime import datetime
+from datetime import datetime, date
 from typing import List, Tuple, Dict
 from csv import writer
 
@@ -153,24 +153,25 @@ def store_data(file, data:BusData):
 def main():
     argv = sys.argv
     
-    if len(argv) != 4:
-        log(f"usage: {argv[0]} <api_key> <bus_id_data> <store_file>")
+    if len(argv) != 3:
+        log(f"usage: {argv[0]} <api_key> <bus_id_data>")
         sys.exit()
     
     api_key = argv[1]
     data_filepath = argv[2]
-    store_filepath = argv[3]
 
     bus_ids = get_bus_ids(data_filepath, models=["XE40 Xcelsior CHARGE", "XE60 Xcelsior CHARGE Articulated"])
 
     log(f"Monitoring {len(bus_ids)} buses\n")
+    STORE_PATH = f"bustime_log_data/{date.today()}.csv"
+
     while True:
-        with open(store_filepath, "a+", newline="") as store_file:
+        with open(STORE_PATH, "a+", newline="") as store_file:
             for bus_id in bus_ids:
                 data = get_bus_data(api_key, bus_id)
                 if data != None:
                     store_data(store_file, data)
-                time.sleep(0.5)
+                time.sleep(2)
         log("Finished processing batch. Starting over...\n")
         time.sleep(1)
 
