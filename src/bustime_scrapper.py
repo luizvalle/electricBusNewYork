@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import sys
+import os
 import requests
 import json
 import time
@@ -145,32 +146,48 @@ def get_bus_data(api_key:str, bus_id:int) -> BusData:
 
     return BusData(bus_id, timestamp, route_name, stop_name, destination, location, bearing)
 
-def store_data(file, data:BusData):
+def store_data(file, data:List[str]):
     csv_writer = writer(file)
-    csv_writer.writerow(data.list_from_class())
-    log(f"Data stored for bus {data.id}")
+    csv_writer.writerow(data)
+    file.flush()
+
+def is_empty(filepath):
+    return os.path.getsize(filepath) == 0
 
 def main():
     argv = sys.argv
     
-    if len(argv) != 3:
-        log(f"usage: {argv[0]} <api_key> <bus_id_data>")
+    if len(argv) != 2:
+        log(f"usage: {argv[0]} <api_key>")
         sys.exit()
     
     api_key = argv[1]
-    data_filepath = argv[2]
+    data_filepath = "../data/depot_data/buses_id_data.csv"
 
     bus_ids = get_bus_ids(data_filepath, models=["XE40 Xcelsior CHARGE", "XE60 Xcelsior CHARGE Articulated"])
 
     log(f"Monitoring {len(bus_ids)} buses\n")
-    STORE_PATH = f"bustime_log_data/{date.today()}.csv"
 
     while True:
-        with open(STORE_PATH, "a+", newline="") as store_file:
+        store_path = f"../data/bustime_log_data/{date.today()}.csv"
+        with open(store_path, "a+", newline="") as store_file:
+            if (is_empty(store_path)):
+                header = [
+                    "ID",
+                    "Timestamp",
+                    "Route",
+                    "Next stop",
+                    "Destination",
+                    "Bearing",
+                    "Longitude",
+                    "Latitude"
+                ]
+                store_data(store_file, header)
             for bus_id in bus_ids:
                 data = get_bus_data(api_key, bus_id)
                 if data != None:
-                    store_data(store_file, data)
+                    store_data(store_file, data.list_from_class())
+                    log(f"Data stored for bus {data.id}")
                 time.sleep(2)
         log("Finished processing batch. Starting over...\n")
         time.sleep(1)
