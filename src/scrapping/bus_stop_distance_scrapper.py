@@ -3,7 +3,7 @@ from tqdm import tqdm
 import pandas as pd
 import sys
 
-GOOGLE_MAPS_API_KEY = "AIzaSyBwYEBoH69t8CucOq_Gep30HMMtIInjrRU"
+GOOGLE_MAPS_API_KEY = "INSERT Google Maps API KEY HERE"
 STOPS_BY_ROUTE_PATH = "../../data/stop_data/stops_by_route.csv"
 
 def get_stops(route):
